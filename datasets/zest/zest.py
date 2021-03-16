@@ -22,7 +22,7 @@ import json
 import os
 
 import datasets
-
+from devtools import debug
 
 _DESCRIPTION = """\
 ZEST tests whether NLP systems can perform unseen tasks in a zero-shot way, given a natural language description of
@@ -50,7 +50,7 @@ _CITATION = """\
 }
 """
 
-_DOWNLOAD_URL = "https://ai2-datasets.s3-us-west-2.amazonaws.com/zest/zest.zip"
+_DOWNLOAD_URL = "https://ai2-public-datasets.s3.amazonaws.com/zest/zest.zip"
 _WEBPAGE = "https://allenai.org/data/zest"
 
 
